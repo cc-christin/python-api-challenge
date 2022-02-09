@@ -52,22 +52,62 @@ The r-squared correlation coefficient is -0.85
 According to the linear regression of maximum temperature vs latitude for the cities in the northern hemisphere, there is a strong negative correlation. The farther away a city's geolocation is to the equator the colder the climate conditions.  
 
 
-
-
-
 #### Southern Hemisphere - Temperature (F) vs. Latitude
+![Southern Hemisphere - Temperature (F) vs. Latitude](Images/Fig6_S.png)
+
+Equation for best-fit linear regression line is y=0.29x+81.08
+r-squared correlation coefficient is 0.46
+
+The above linear regression shows a positive relationship between geolocation of cities in the southern hemisphere relative to the equator and their cooresopnding climate conditions. The cities closer to the equator enjoy warmer climate conditions and therefore higher maximum temperatures. 
 
 #### Northern Hemisphere - Humidity (%) vs. Latitude
+![Northern Hemisphere - Humidity (%) vs. Latitud](Images/Fig7_N.png)
+
+Equation for best-fit linear regression line is y=0.51x+50.34
+r-squared correlation coefficient is 0.44
+
+Dispite the somewhat positive correlation coefficient for the linear regression of Humidity (%) vs. Latitude for cities in the northern hemisphere, the outliers throughout makes the results for this particular dataset skewed. There should not be any noticable correlation between humidity for cities in respect to their geolocation from the equator. 
 
 #### Southern Hemisphere - Humidity (%) vs. Latitude
+![Southern Hemisphere - Humidity (%) vs. Latitude](Images/Fig8_S.png)
+
+Equation for best-fit linear regression line is y=0.38x+80.92
+r-squared correlation coefficient is 0.25
+
+Likewise there should be little to no assoication between humidity and geolocation for cities in the southern hemisphere.
 
 #### Northern Hemisphere - Cloudiness (%) vs. Latitude
+![Northern Hemisphere - Cloudiness (%) vs. Latitude](Images/Fig9_N.png)
+
+Equation for best-fit linear regression line is y=0.62x+28.74
+r-squared correlation coefficient is 0.31
+
+Judging from the overall data spread, there should be little to no correlation between cloud coverage and geolocation for cities in the northern hemisphere. 
 
 #### Southern Hemisphere - Cloudiness (%) vs. Latitude
+![Southern Hemisphere - Cloudiness (%) vs. Latitude](Images/Fig10_S.png)
+
+Equation for best-fit linear regression line is y=1.07x+78.73
+r-squared correlation coefficient is 0.38
+
+Similarly, there should also be little to no correlation between cloud coverage and geolocation for cities in the southern hemisphere. 
 
 #### Northern Hemisphere - Wind Speed (mph) vs. Latitude
+![Northern Hemisphere - Wind Speed (mph) vs. Latitude](Images/Fig11_N.png)
+
+Equation for best-fit linear regression line is y=0.08x+5.34
+r-squared correlation coefficient is 0.23
+
+According to the the correlation coefficient for the linear regression for Wind Speed (mph) vs. Latitude, there should be almost no or slightly weak positive correlation between wind speed and geolocation away from the equator. This data could be skewed by the outliers for a few very windy northern cities. 
+
 
 #### Southern Hemisphere - Wind Speed (mph) vs. Latitude
+![Southern Hemisphere - Wind Speed (mph) vs. Latitude](Images/Fig12_S.png)
+
+Equation for best-fit linear regression line is y=-0.08x+6.31
+r-squared correlation coefficient is -0.19
+
+Reasonably should also not be any association between wind speed and geolocation away from the equator for cities in the southern hemisphere.  
 
 
 Final notebook must have:
