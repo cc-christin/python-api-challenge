@@ -7,25 +7,68 @@ Creatie a Python script to visualize the weather of 500+ cities across the world
 
 First requirement is to create a series of scatter plots to showcase the following relationships:
 
-* Temperature (F) vs. Latitude
-* Humidity (%) vs. Latitude
-* Cloudiness (%) vs. Latitude
-* Wind Speed (mph) vs. Latitude
-
 After each plot, add a sentence or two explaining what the code is analyzing.
 
-second requirement is to run linear regression on each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+### Scatter Analysis
 
-* Northern Hemisphere - Temperature (F) vs. Latitude
-* Southern Hemisphere - Temperature (F) vs. Latitude
-* Northern Hemisphere - Humidity (%) vs. Latitude
-* Southern Hemisphere - Humidity (%) vs. Latitude
-* Northern Hemisphere - Cloudiness (%) vs. Latitude
-* Southern Hemisphere - Cloudiness (%) vs. Latitude
-* Northern Hemisphere - Wind Speed (mph) vs. Latitude
-* Southern Hemisphere - Wind Speed (mph) vs. Latitude
+#### Temperature (F) vs. Latitude
+![Temperature (F) vs. Latitude](Images/Fig1.png)
+
+
+The above scatter plot analyzies the latitudes of cities (north or south) of the equator against their correponding maximum temperatures (in degrees fahrenheit). Temperatures rise the closer a city is in relation to the equator. Cities south of the equator have higher maximum temperatures in comparison to cities north of the equator. 
+
+#### Humidity (%) vs. Latitude
+![Humidity (%) vs. Latitude](Images/Fig2.png)
+
+The above scatter plot analyzies percent humidity against the latitudinal of a city in relation to the equator. There seems to be no apparently noticeable relationship between humidity and geolocation.
+
+#### Cloudiness (%) vs. Latitude
+![Cloudiness (%) vs. Latitude](Images/Fig3.png)
+
+The scatter plot of Cloudiness vs. Latitude does does not show any associations between cloud cover and latitudial location.
+
+#### Wind Speed (mph) vs. Latitude
+![Wind Speed (mph) vs. Latitude](Images/Fig4.png)
+
+The Wind Speed vs Latitude Scatter Plot shows no apparent associations between wind speed and geolocation for cities north or south of the equator.
+
+
+second requirement is to run linear regression on each relationship. Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.
+
+### Linear Regression
+
+The northern hemisphere has 383 cities out of 569 total, accounting for 67.3% of cities in the dataset.
+
+The southern hemisphere has 186 cities out of 569 total, accounting for 32.7% of cities in the dataset.
+
+#### Northern Hemisphere - Temperature (F) vs. Latitude
+![Northern Hemisphere - Temperature (F) vs. Latitude](Images/Fig5_N.png)
+
+Line of Best-Fit for linear regression is y=-1.44x+97.68
+The r-squared correlation coefficient is -0.85
+
+According to the linear regression of maximum temperature vs latitude for the cities in the northern hemisphere, there is a strong negative correlation. The farther away a city's geolocation is to the equator the colder the climate conditions.  
+
+
+
+
+
+#### Southern Hemisphere - Temperature (F) vs. Latitude
+
+#### Northern Hemisphere - Humidity (%) vs. Latitude
+
+#### Southern Hemisphere - Humidity (%) vs. Latitude
+
+#### Northern Hemisphere - Cloudiness (%) vs. Latitude
+
+#### Southern Hemisphere - Cloudiness (%) vs. Latitude
+
+#### Northern Hemisphere - Wind Speed (mph) vs. Latitude
+
+#### Southern Hemisphere - Wind Speed (mph) vs. Latitude
+
 
 Final notebook must have:
 
