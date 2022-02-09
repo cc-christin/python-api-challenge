@@ -110,7 +110,7 @@ r-squared correlation coefficient is -0.19
 Reasonably should also not be any association between wind speed and geolocation away from the equator for cities in the southern hemisphere.  
 
 
-Final notebook must have:
+#### Final notebook must have:
 
 * Randomly select **at least** 500 unique (non-repeat) cities based on latitude and longitude.
 * Perform a weather check on each of the cities using a series of successive API calls.
